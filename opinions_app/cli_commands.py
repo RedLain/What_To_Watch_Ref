@@ -5,6 +5,7 @@ import click
 from opinions_app import app
 from opinions_app.models import Opinion, db
 
+
 @app.cli.command('load_opinions')
 def load_opinions_command():
     """Функция загрузки мнений в базу данных."""
